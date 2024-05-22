@@ -45,7 +45,7 @@ export default function PokemonAxios() {
   return (
     <View style={styles.container}>
       <FormularioPokemon
-        tituloFormulario='Listado de Pokemones usando Fetch'
+        tituloFormulario='Listado de Pokemones usando Axio'
         labelInput='Ingrese la cantidad de pokemon a cargar: '
         placeHolderInput='20'
         valor={nPokemon}
